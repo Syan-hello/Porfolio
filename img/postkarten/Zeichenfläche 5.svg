@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.64 419.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e30613;
+      }
+
+      .cls-2 {
+        fill: #ffed00;
+        font-family: VTCSuperMarketSale, VTCSuperMarketSale;
+        font-size: 60px;
+        letter-spacing: -.07em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-5.67" y="-5.67" width="308.97" height="430.87"/>
+  <text class="cls-2" transform="translate(24.16 72.04)"><tspan x="0" y="0">Einem </tspan><tspan x="0" y="63">geschenkten </tspan><tspan x="0" y="126">Gaul schaut </tspan><tspan x="0" y="189">man nicht ins </tspan><tspan x="0" y="252">Maul!!!</tspan></text>
+</svg>

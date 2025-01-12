@@ -1,0 +1,193 @@
+div .gridwrapper{
+    position: relative;
+    margin-top: 4rem;
+    display: block;
+    max-width: 100%;
+    background:var(--wite);
+
+    grid-template-columns:  100%;
+    grid-template-rows:50px min-content 150px;
+    grid-template-areas:  
+        "  aside "
+        "  con  "
+        "  info ";
+
+    }
+
+
+
+.aside {
+    grid-area:aside; 
+    
+    
+}
+
+.aside-h2{
+    font-family: 'Rubik Italic Regular';
+    color: rgba(20, 20, 19, 0.857);
+    font-size: 1,3rem;
+    transform-origin: 0 0;
+
+    text-transform: uppercase;
+    _border: solid 1px;
+    padding: 1rem 0.5rem 0.5rem;
+    background-color: var(--white);
+    margin-bottom: 3rem;
+    
+   
+  
+     
+}
+
+
+.content {
+    grid-area:con;
+    display: flex;
+
+
+    align-items:last baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    _border: solid 1px #333333;
+    margin-bottom: 2rem;
+    min-height: 200px;
+    width: 100%;
+ 
+
+}
+
+
+.content img{
+    max-width: 100%;
+  
+}
+
+
+
+.info {
+    grid-area: info;
+    -background: red;
+}
+
+
+.info-h3 {
+    font-family: 'Rubik Italic Regular';
+    color: #333333;
+    font-size: 0.9rem;
+    text-align: end;
+  
+    
+}
+    
+
+
+
+
+@media (min-width: 641px){
+    div .gridwrapper { 
+        _display: grid;
+        grid-template-columns:  100%;
+        grid-template-rows: 50px auto 150px;
+        grid-template-areas:  
+        "aside"
+        "con"
+        "info";
+        
+        overflow: hidden;
+    
+    }
+    
+    .aside-h2{
+        position: relative;
+        font-size: 2rem;
+        font-family: 'Rubik Italic';
+        transform-origin: 0 0;
+       
+  
+     
+        _color: rgb(254, 255, 206) ;
+        _color: var(--white);
+      
+    }
+    .aside{
+        z-index: 100;
+        _background: rgb(37, 200, 200);
+     
+    }
+    
+    .content {
+        grid-area:con;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      
+      
+     
+    
+        
+    }
+    .info {
+        display: flex;
+        justify-content: flex-end;
+      
+        
+    }
+}
+
+@media (min-width: 1008px){
+
+   div .gridwrapper { 
+    display: grid;
+    grid-template-columns: 20% auto 20px;
+    grid-template-rows: 700px 50px;
+    grid-template-areas:  
+    "aside  con side "  
+    "aside info side ";
+    
+  
+
+}
+
+.aside-h2{
+    display: none;
+    font-size: 4rem;
+    font-family: 'Rubik Italic';
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    z-index: 100;
+    color: rgb(64, 64, 64) ;
+    _color: var(--white);
+   
+
+  
+}
+.aside{
+    z-index: 10;
+    _background: rgba(6, 170, 170, 0.678);
+}
+
+.content {
+    _position: relative;
+    grid-area:con;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 10;
+ 
+
+}
+
+.info {
+    margin-right: 70px;
+    margin-top: 20px;
+    border-bottom: solid 1px;
+    
+}
+
+
+
+
+
+}

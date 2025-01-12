@@ -1,0 +1,314 @@
+
+
+
+/* ICON für Hamburger */
+
+#icon{
+    position:absolute;
+    width:40px;
+    height: 37px;
+    top: 2rem;
+    left: 25Px;
+    z-index: 1200;
+    
+  }
+  /* für die einzelen Linien*/
+  #icon span{
+    position:absolute;
+    height: 9px;
+    border-radius: 2px;
+    width: 35px;    
+    background-color: var(--gelb);
+ 
+    border: solid 0.5px #000;
+
+    display: block;
+    transition: all 0.5s;
+    z-index: 20000;
+  }
+  /* :nth-child() n-te Kind, pseudoklasse benutzt man wie eine KLasse */
+  #icon span:nth-child(1){
+    top: 0px;
+  }
+  #icon span:nth-child(2){
+    top: 10px;
+  }
+  #icon span:nth-child(3){
+    top: 20px;
+  }
+
+
+  /* Kreuz mit Rotation , id = icon wird mit Klasse = kreuz verknüpft und mit span verknüpft */
+  #icon.kreuz span:nth-child(1) {
+    transform: rotate(-135deg); /* 135° */
+    top: 19px;
+    height: 4px;
+    background-color: var(--gelb);
+  }
+
+  #icon.kreuz span:nth-child(2) {
+    transform: rotate(135deg);
+    top: 18px;
+    background-color: var(--gelb);
+  }
+
+  #icon.kreuz span:nth-child(3) {
+    transform: rotate(135deg);
+    top: 18px;
+    background-color: var(--gelb);
+  }
+
+
+
+  /* ____________Menueee______________________________*/
+
+
+  #menue {
+    position: absolute;
+    background-color: #fa5480;
+    z-index: 100;
+    width: 100%;
+  }
+  #navId{
+    display: block;
+    position: relative;
+    position: sticky;
+    top: 0rem;
+
+    z-index: 24400;
+
+
+  }
+  nav ul{
+    overflow: hidden; /* scrollen verhindern, und überfleisenden Text verstecken. */
+   
+  }
+  nav ul li{
+    display:inline; /* nebeneinander für die Listenpunkte */
+   
+  }
+  nav ul li a{
+    color:#000;
+    text-decoration: none;
+    _height:4rem;
+  }
+  nav ul li a:hover{
+    color:#4cc4f7;
+  }
+
+  
+    /* Höhe für das Menu */
+  #menue.einblenden{     /* Einstellung für die Klasse einblenden , Höhe auf automatisch */
+  height: 100vh;
+  background-color: rgba(248, 236, 228, 0.897);
+  display: block;
+
+  }
+
+
+
+
+
+
+
+/* !!!!!! Höhe auf 20vh */ 
+
+
+  #icon{
+    display: block; /* !!!!!! Icon wird eingeblendet */
+  }
+  nav ul{
+    height:0px; /* !!!!!! Höhe auf 0, damit die Menu punkte verschwinden */
+    overflow: hidden;
+    padding-top:100px ;
+    transition: all 1s; /* Übergang */
+ 
+   
+  }
+  nav ul li{
+    display: block; /* !!!!!!! damit die Menupunkte untereinander stehen */
+    margin: 50px 50px 20px 20px; 
+
+  }
+
+
+  /*___________SKIER----------*/
+
+  #menue span{
+    background-color: #4cc4f7;
+    height: 1px;
+    width: 100%;
+    z-index: 2000;
+    position: absolute;
+  
+  }
+
+
+   
+@media (min-width:1008px) {
+
+    #icon {
+        display: none;
+    } 
+    nav ul{
+        height: auto;
+        max-width: 200px;
+        font-size: 2rem;
+        padding-top: 0px;
+        display: block;
+        list-style-type: none;
+        background-color: white;
+        _box-shadow: 2em 1em 1em #6bd6c6;
+        _box-shadow: 2em 1em 1em #f5e8e8;
+        _box-shadow: 5px 0 5px rgb(251, 251, 250) inset;
+        _padding: 5rem 1rem 1rem 0rem;
+        _justify-content: start;
+        
+        
+       
+      }
+
+      nav ul li{
+        display: block; /* !!!!!!! damit die Menupunkte untereinander stehen */
+        margin: 40px 10px 20px 30px; 
+    
+      }
+
+         
+    
+    
+    nav li { 
+      display: block;
+      width: 200px;
+        font-family:'Rubik Light';
+        font-weight: 300;
+        font-size: 1.3rem;
+        _border-right: 1px solid #3e3c3c;
+      _background-color: rgba(254, 255, 218, 0.698);
+
+        
+      
+    }
+    
+    nav li:hover {
+        _background-color: aquamarine;
+        color: #4cc4f7;
+        padding-right: 1rem;
+      
+    
+    
+    }
+    
+    nav li:nth-child(1){
+         _border-left: 1px solid #333;
+         _border-bottom-left-radius: 0.2rem;
+         _border-top-left-radius: 0.2rem;
+      
+    }
+    
+    nav li:last-child{
+        _border-right: 1px solid #3e3c3c;
+        -border-bottom-right-radius: 0.2rem;
+        _border-top-right-radius: 0.2rem;
+        
+    }
+
+
+
+    #menue span{
+
+      height: 0px;
+      width: 100%;
+      z-index: 2000;
+      position: absolute;
+    
+    }
+
+    #menue {
+      background-color: white;
+    }
+
+    #menue.einblenden{
+      background-color: white;
+      
+    }
+
+
+    
+}
+
+
+
+
+
+  /* _____NAVIGATION___ALT_____*/
+
+/*
+nav ul {
+    display: none;
+    list-style-type: none;
+    box-shadow: 2em 1em 1em #6bd6c6;
+    box-shadow: 2em 1em 1em #f5e8e8;
+	box-shadow: 5px 0 5px rgb(251, 251, 250) inset;
+    padding: 5rem 1rem 1rem 0rem;
+    justify-content: start;
+    
+       
+}
+
+nav li {
+    font-family:'Rubik Regular';
+    font-weight: 300;
+    font-size: 1.3rem;
+    _border-right: 1px solid #3e3c3c;
+  _background-color: rgba(254, 255, 218, 0.698);
+    
+    padding: 5px 5px 5px 5px; 
+    
+  
+}
+
+nav li:hover {
+    _background-color: aquamarine;
+    padding: 1.5rem;
+  
+
+
+}
+
+nav li:nth-child(1){
+     _border-left: 1px solid #333;
+     _border-bottom-left-radius: 0.2rem;
+     _border-top-left-radius: 0.2rem;
+  
+}
+
+nav li:last-child{
+    _border-right: 1px solid #3e3c3c;
+    -border-bottom-right-radius: 0.2rem;
+    _border-top-right-radius: 0.2rem;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+a:hover {    
+    opacity: white;
+
+}
+
+
+
+
+
+  }
+  */
+
+
+
+  
+

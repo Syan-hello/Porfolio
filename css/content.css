@@ -1,0 +1,183 @@
+
+#hello {
+    padding-top: 2rem;
+}
+
+#webich {
+    max-width: 400px;
+}
+
+h1 {
+ 
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+.contact {
+    display: block;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.contact ul{
+   max-width:100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   list-style: none;
+
+}
+
+.contact ul li a{
+    color: #4cc4f7;
+  
+}
+.contact h4{
+    padding-bottom: 2rem;
+}
+
+h1 {
+    padding-top: 2rem;
+    height: 200px;
+    
+    
+}
+
+    
+#jack {
+    height:500px;
+}
+
+.bilderhoch{ 
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+
+}
+.bilderquer{
+    width: 250px;
+    _border: solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+ 
+}
+
+.figurequer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: auto;
+   height: 500px;
+}
+
+.merch {
+  
+    width: 200px;
+    height: auto;
+}
+.merch2 {
+  
+    width: 200px;
+    height: auto;
+}
+.merch3 {
+    width: 150px;
+    height: auto;
+}
+
+
+@media (min-width: 641px){
+
+    h1 {
+        position: relative;
+        right: 10rem;
+    }
+
+    .merch{
+        width:300px;
+    }
+    
+    
+    .bilderhoch { 
+        width: 300px; 
+    }
+    .figurequer{
+          
+        width:auto;
+        
+    }
+    .bilderquer{
+        width: 350px;
+       
+        object-fit: cover;
+    }
+    #photography .content{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact ul{
+        max-width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        list-style: none;
+     
+     }
+    #gefallen {
+        padding-top: 5rem;
+       
+    }
+
+
+}
+
+
+@media (min-width: 1008px){
+
+    .merch{
+        width:300px;
+    }
+    .merch2{
+        width: 400px;
+    }
+
+    .merch3{
+        width: 200px;
+    }
+    
+    .bilderhoch { 
+        max-width: none;
+        width: 350px;
+       
+    }
+    .figurequer{
+
+        width: 500px;
+  
+    }
+    .bilderquer{
+        width: 600px;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    #photography .content{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .videowrapper{
+        max-width: 1100px;
+    }
+
+    #gefallen {
+        position: relative;
+        bottom: 8rem;
+    }
+    
+    #jack {
+        height:500px;
+    }
+}
