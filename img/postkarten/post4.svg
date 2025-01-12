@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 419.53 297.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+        font-family: HardRace, 'Hard Race';
+        font-size: 72px;
+        letter-spacing: -.08em;
+      }
+
+      .cls-2 {
+        fill: #ffde00;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="-5.67" y="-5.67" width="430.87" height="308.98"/>
+  <text class="cls-1" transform="translate(22.63 89.73)"><tspan x="0" y="0">Wer </tspan><tspan x="0" y="48">rastet, </tspan><tspan x="0" y="96">der </tspan><tspan x="0" y="144">rostet.</tspan></text>
+</svg>
