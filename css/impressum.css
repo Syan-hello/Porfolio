@@ -2,7 +2,7 @@ ul li {
     list-style: none;
 }
 main{
-    font-family: "Rubik";
+    font-family: 'Rubik Regular';
     color: var(--rot);
 }
 
