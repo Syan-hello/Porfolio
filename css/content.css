@@ -4,16 +4,18 @@
 }
 
 #webich {
-    max-width: 400px;
+    width: 450px;
 }
 
 h1 {
- 
+    padding-top:1rem;
     font-size: 1.2rem;
 }
 
 h4 {
     font-size: 1.2rem;
+    padding-top: 5rem;
+    height: 200px;
 }
 .contact {
     display: block;
@@ -39,16 +41,14 @@ h4 {
     padding-bottom: 2rem;
 }
 
-h1 {
-    padding-top: 2rem;
-    height: 200px;
-    
-    
-}
+
 
     
 #jack {
-    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
 }
 
 .bilderhoch{ 
@@ -91,7 +91,12 @@ h1 {
 
     h1 {
         position: relative;
-        right: 10rem;
+        right: 15vw;
+    }
+
+    #webich {
+        position: relative;
+        left: 5vw;
     }
 
     .merch{
@@ -126,8 +131,7 @@ h1 {
      
      }
     #gefallen {
-        padding-top: 5rem;
-       
+        padding-top: 5rem;  
     }
 
 
@@ -153,7 +157,6 @@ h1 {
        
     }
     .figurequer{
-
         width: 500px;
   
     }
@@ -179,5 +182,11 @@ h1 {
     
     #jack {
         height:500px;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+        padding-top: 2.5rem;
+        height: 80px;
     }
 }
