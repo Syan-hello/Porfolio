@@ -19,9 +19,7 @@
     border-radius: 2px;
     width: 35px;    
     background-color: var(--gelb);
- 
     border: solid 0.5px #000;
-
     display: block;
     transition: all 0.5s;
     z-index: 20000;
@@ -74,7 +72,6 @@
     position: relative;
     position: sticky;
     top: 0rem;
-
     z-index: 24400;
 
 
@@ -90,7 +87,7 @@
   nav ul li a{
     color:#000;
     text-decoration: none;
-    _height:4rem;
+    font-size: 1.2rem;
   }
   nav ul li a:hover{
     color:#4cc4f7;
@@ -100,13 +97,10 @@
     /* Höhe für das Menu */
   #menue.einblenden{     /* Einstellung für die Klasse einblenden , Höhe auf automatisch */
   height: 100vh;
-  background-color: rgba(248, 236, 228, 0.897);
+  background-color: rgba(248, 236, 228, 0.931);
   display: block;
 
   }
-
-
-
 
 
 
