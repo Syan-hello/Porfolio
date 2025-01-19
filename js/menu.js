@@ -4,7 +4,14 @@
 
 // 1. Variablen deklarieren
 let icon = document.querySelector('#icon'); // für das Icon, id = icon
-let lista = document.querySelector('#id4');
+let lista1= document.querySelector('#id1');
+let lista2= document.querySelector('#id2');
+let lista3= document.querySelector('#id3');
+let lista4= document.querySelector('#id4');
+let lista5= document.querySelector('#id5');
+let lista6= document.querySelector('#id6');
+let lista7= document.querySelector('#id7');
+let lista8= document.querySelector('#id8');
 
     
 let menue = document.querySelector('#menue'); // für das Menü, id = menue
@@ -21,8 +28,14 @@ let menue = document.querySelector('#menue'); // für das Menü, id = menue
 // 3. Ausgabe: Funktion mit "click"-Event verknüpfen, addEventListener kommt hinzu
 
 icon.addEventListener("click",menu); // Events sind u.a. mouseenter, mouseover
-lista.addEventListener("click",menu);
-
+lista1.addEventListener("click",menu);
+lista2.addEventListener("click",menu);
+lista3.addEventListener("click",menu);
+lista4.addEventListener("click",menu);
+lista5.addEventListener("click",menu);
+lista6.addEventListener("click",menu);
+lista7.addEventListener("click",menu);
+lista8.addEventListener("click",menu);
 //.addEventListener
 
 /* JavaScript sorgt hier dafür, 

@@ -104,6 +104,12 @@ h4 {
     .merch{
         width:300px;
     }
+
+    .merch3 {
+        width: 250px;
+        height: auto;
+    }
+    
     
     
     .bilderhoch { 
@@ -150,7 +156,7 @@ h4 {
     }
 
     .merch3{
-        width: 200px;
+        width: 250px;
     }
     
     .bilderhoch { 

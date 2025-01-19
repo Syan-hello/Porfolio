@@ -5,8 +5,7 @@
      let id5 = document.querySelector("#id5");
      let id6 = document.querySelector("#id6");
      let id7 = document.querySelector("#id7");
-
-
+     let id8 = document.querySelector("#id8");
 
 
 
@@ -63,7 +62,7 @@
             id6.style.padding="0rem";
             id6.style.color= "#333";
         }
-        if(y >= 8000 && y <= 9000){
+        if(y >= 8000 && y <= 8500){
             id7.style.padding= "1rem";
             id7.style.color= "#4cc4f7";
 
@@ -71,12 +70,20 @@
             id7.style.padding="0rem";
             id7.style.color= "#333";
         }
+
+        if(y >= 8500 ){
+            id8.style.padding= "1rem";
+            id8.style.color= "#4cc4f7";
+
+        }else{
+            id8.style.padding="0rem";
+            id8.style.color= "#333";
+        }
  
  
  
  
 
-    
 
         console.log(window.scrollY); /*test console */
         /*console.log("fensterhoehe:"+browsery);

@@ -69,7 +69,7 @@
   }
   #navId{
     display: block;
-    position: relative;
+
     position: sticky;
     top: 0rem;
     z-index: 24400;
@@ -114,7 +114,7 @@
   nav ul{
     height:0px; /* !!!!!! Höhe auf 0, damit die Menu punkte verschwinden */
     overflow: hidden;
-    padding-top:100px ;
+    padding-top:80px ;
     transition: all 1s; /* Übergang */
  
    
