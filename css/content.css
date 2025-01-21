@@ -3,12 +3,16 @@
     padding-top: 2rem;
 }
 
-#webich {
-    width: 450px;
+
+
+#webich img{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 1rem;
 }
 
 h1 {
-    padding-top:1rem;
+    padding: 1rem 0rem 3rem 0rem;
     font-size: 1.2rem;
 }
 
@@ -50,7 +54,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:300px;
+    height:400px;
 }
 
 .bilderhoch{ 
@@ -59,7 +63,7 @@ h4 {
 
 }
 .bilderquer{
-    width: 250px;
+    width: 300px;
     _border: solid 1px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
  
@@ -74,7 +78,6 @@ h4 {
 }
 
 .merch {
-  
     width: 200px;
     height: auto;
 }
@@ -92,13 +95,18 @@ h4 {
 @media (min-width: 641px){
 
     h1 {
-        position: relative;
-        right: 15vw;
+  
+        text-align: end;
+        max-width: 400px;
+  
+
     }
 
     #webich {
-        position: relative;
-        left: 5vw;
+        display: flex;
+        gap: 2rem;
+
+     
     }
 
     .merch{

@@ -8,7 +8,7 @@
     width:40px;
     height: 37px;
     top: 2rem;
-    left: 25Px;
+    left: 25px;
     z-index: 1200;
     
   }
@@ -100,6 +100,7 @@
   background-color: rgba(248, 236, 228, 0.931);
   display: block;
 
+
   }
 
 
@@ -114,7 +115,7 @@
   nav ul{
     height:0px; /* !!!!!! Höhe auf 0, damit die Menu punkte verschwinden */
     overflow: hidden;
-    padding-top:80px ;
+    padding-top:90px ;
     transition: all 1s; /* Übergang */
  
    
@@ -146,6 +147,7 @@
     } 
     nav ul{
         height: auto;
+
         max-width: 200px;
         font-size: 2rem;
         padding-top: 0px;
@@ -171,12 +173,11 @@
          
     
     
-    nav li { 
+    nav li a{ 
       display: block;
       width: 200px;
         font-family:'Rubik Light';
-        font-weight: 300;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         _border-right: 1px solid #3e3c3c;
       _background-color: rgba(254, 255, 218, 0.698);
 

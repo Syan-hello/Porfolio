@@ -4,6 +4,7 @@ ul li {
 main{
     font-family: 'Rubik Regular';
     color: var(--rot);
+    padding: 1rem;
 }
 
 a{
@@ -16,4 +17,24 @@ p{
 h1, h2, h3, h4, li{
 
     max-width: 600px;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    gap: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    
+}
+
+article ul{
+    padding-left: 0;
+    
+}
+
+img{
+    max-width: 100%;
+    border-radius: 1rem;
+    max-width: 200px;
 }

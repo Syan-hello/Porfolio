@@ -1,12 +1,12 @@
 #myselfId {
     display: block;
-    width: 40px;
+    width: 50px;
     height: 120px;
     background-image: url(/img/SVG/ich_skate2.svg);
     background-repeat: no-repeat;
     position: fixed;
-        top: 3%;
-        right: 5%;
+        top: 1.5%;
+        right: 3%;
        
         z-index: 99002;
            
@@ -22,7 +22,7 @@
 }
 
 @keyframes example {
-    0%   {right:5%; top:5%;}
+    0%   {right:1%; top:5%;}
     15%  {right:200px; top:5%;}
   
     65%  { right:800px; top:5%;}
@@ -36,19 +36,21 @@
     
 
     #myselfId {
-        display: block;
+        display: flex;
+        justify-content: end;
         width: 100px;
         height: 100px;
         background-image: url(../img/SVG/ich_skate2.svg);
         background-repeat: no-repeat;
         _background-color: rgb(255, 64, 0);
+        object-fit: cover;
         position: fixed;
         top: 2rem;
-        right: 1%;
+        right: 2%;
        
         z-index: 9002;
     }
-        
+   
 
     #myselfId:hover {
     
@@ -68,6 +70,11 @@
 
 
 @media (min-width: 1008px){
+
+    #myselfId {
+        width: 120px;
+        height: 120px;
+       }  
 
 
  
