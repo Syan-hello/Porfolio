@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 449.5 109.7">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-family: Rubik-MediumItalic, Rubik;
+        font-style: italic;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #fbf7d0;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #1d1d1b;
+        font-size: 48px;
+      }
+    </style>
+  </defs>
+  <g id="Ebene_1-2" data-name="Ebene 1">
+    <polygon class="cls-3" points="419.9 91.1 .5 109.18 .5 .52 422.89 13.46 419.9 91.1"/>
+    <text class="cls-4" transform="translate(29.41 68.4)"><tspan class="cls-1" x="0" y="0">GRAB &amp; </tspan><tspan class="cls-2" x="189.21" y="0">S</tspan><tspan class="cls-1" x="219.79" y="0">WIPE!</tspan><tspan x="347.27" y="0">!</tspan></text>
+  </g>
+</svg>

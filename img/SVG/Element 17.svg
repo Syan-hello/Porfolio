@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248.03 172.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbf7d0;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3 {
+        fill: #1d1d1b;
+        font-family: Rubik-Regular, Rubik;
+        font-size: 48px;
+        font-variation-settings: 'wght' 400;
+      }
+    </style>
+  </defs>
+  <g id="Ebene_1-2" data-name="Ebene 1">
+    <path class="cls-1" d="M3.16,154.52s41.84-23.63,62.75-14.97c20.9,8.66,26.48,51,77.25,21.84,50.76-29.16,83.58-5.56,95.95-36.52,3.66-9.16,11.02-10.22,6.52-39.38-4.86-31.54-14.88-33.69-48.65-54.75-33.77-21.06-64.79-9.35-91.29-9.35S67.65,3.57,52.63,40.6l-2.65,6.52c-3.9,9.61-6.01,19.85-6.34,30.22-.25,7.7-1.11,16.42-3.61,20.41-4.98,7.96-9.79,21.65-15.26,27.13s-21.6,29.65-21.6,29.65Z"/>
+    <text class="cls-3" transform="translate(63.7 40.8)"><tspan x="0" y="0"> </tspan><tspan class="cls-2" x="0" y="57.6">S</tspan><tspan x="29.33" y="57.6">WIPE!</tspan></text>
+  </g>
+</svg>

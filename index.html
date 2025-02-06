@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Yannick</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fontsundfarbe.css">
-    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/fontsundfarbe.css">
+    <link rel="stylesheet" href="css/sectiongrid.css">
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -29,434 +29,463 @@
 <body>
 
     <header>
-       
-
-    <nav id="navId">
-    
-        <div id="icon"><!-- Für burger icon -->
-            <span></span> <!-- Neutrales Element (HTML4)-->
-            <span></span>
-            <span></span>
-        </div>
-        <ul id="menue">
-          
+        <!-- Navigation-->
+        <nav id="navId">
         
-            <li> <a id="id1" href="#hello">hello</a></li>
-            <span></span>
-      
+            <div id="icon"><!-- Für burger icon -->
+                <span></span> <!-- Neutrales Element (HTML4)-->
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="menue">
+
+                <li> <a id="nav-hello" class="menu-item" href="#hello">hello</a></li>
+                <span></span>
             
-            <li> <a id="id2" href="#webdesign">webdesign</a></li>
-            </li>
-            <span></span>
+                <li> <a id="nav-layout" class="menu-item" href="#layout">layout</a></li>
+                <span></span>
 
-            <li > <a id="id3" href="#corporate">corporate</a></li>
-            <span></span>
+                <li> <a id="nav-web" class="menu-item" href="#webdesign">webdesign</a></li>
+                <span></span>
+            
+                <li> <a id="nav-corporate" class="menu-item" href="#corporate">corporate</a></li>
+                <span></span>
 
-            <li> <a id="id4"href="#logo">logo</a></li>
-            <span></span>
+                <li> <a id="nav-typo" class="menu-item" href="#typografie">typografie</a></li>
+                <span></span>
 
-        
-            <li> <a id="id5"href="#print">print</a></li>
-            <span></span>
+                <li > <a id="nav-photo" class="menu-item" href="#photography">photography</a></li>
+                <span></span>
 
-            <li > <a id="id6" href="#photography">photography</a></li>
-            <span></span>
+                <li> <a id="nav-contact" class="menu-item" href="#contact">contact</a></li>
+                <span></span>
 
-            <li > <a id="id7" href="#artsy">artsy</a></li>
-            <span></span>
-
-            <li> <a id="id8" href="#contact">contact</a></li>
-            <span></span>
-
-        </ul>
-    </nav>
+            </ul>
+        </nav>
     </div>
 
     </header>
 
-<a href="#contact"><figure id="myselfId" ></figure></a>
-<a href="#hello"><figure id="sesselId" ><img src="img/SVG/sessel.svg" alt="Sessel"> </figure></a>
- 
+    <a href="#contact"><figure id="myselfId" ></figure></a>
+    <a href="#hello"><figure id="sesselId" ><img src="img/SVG/sessel.svg" alt="Sessel"> </figure></a>
+    
     
 
     <main class="maincontainer2">
-        <div  >
+        <div>
+        
+            <!-- Hero Section -->
             <section id="hello">
+                <h2 class="aside-h2">Hello</h2>
 
                 <div class="gridwrapper">
 
-
                     <div class="aside">
-
-                        <h2 class="aside-h2">Hello</h2>
-
                     </div>
-
-                    <div class="content"> 
-                        <figure id="webich">
-                            <h1>Hello, <br> ich bin Yannick. <br>
-                                Ich mache aktuell eine Ausbildung zum Mediengestalter und das ist mein Portfolio. <br>
-                                Ich wünsche viel Spaß beim Durchklicken! 
-                            </h1>
-                        <img src="img/portrait_processed.jpg" alt="amcomputer">
-                
-                         </figure>
-                
-                
-                    </div>
-
-        
                     <div class="info">
-
                         <h3 class="info-h3"></h3>
-        
                     </div>
 
+                    <div class="content" id="webichwrapper"> 
+                        <figure id="webich">
+                            
+                            <img src="img/portrait_processed.jpg" alt="amcomputer">
 
+                            <div class="hello-text">
+                                <h2>Hello, <br> ich bin Yannick. <br> Aktuell mache ich eine Ausbildung zum Mediengestalter und das ist mein Portfolio. <br>
+                                    Viel Spaß beim Durchschauen! 
+                                </h2>
+                            </div>
+                            
+                        </figure>
+                    </div>
                     
                 </div>
 
             </section>
-            <section id="webdesign">
 
+            <!-- Layout Section -->
+            <section id="layout">
+                <h2 class="aside-h2">layout</h2> 
+                <!-- Impuls Theater Poster-->
                 <div class="gridwrapper"> 
 
                     <div class="aside">
-                        <h2 class="aside-h2">Corporate</h2>
                     </div>
 
-
-                    <div class="content">
-                        <div class="videowrapper">
-               
-                        <video loop autoplay muted class="desktop">
-                            <source src="video/skiweb_mac.mp4" type="video/mp4">
-                            <source src="movie.ogg" type="video/ogg">
-                            Your browser does not support the video tag.
-                        </video>
-                        <video loop autoplay muted class="mobil">
-                            <source src="video/skiweb_handy.mp4" type="video/mp4">
-                            <source src="movie.ogg" type="video/ogg">
-                            Your browser does not support the video tag.
-                        </video>
+                    <div class="info">       
+                        <h3 class="info-h3">Poster & Sticker "Impulse Theater Festival"</h3>
                     </div>
-            
-                                        
 
+                    <div class="content" id="impulseposter"> 
+                        <figure class="figurequer">
+                            <img src="img/impulse/poster_3.svg" alt="Impulse Festvial Poster und Sticker" class="merch2">
+                        </figure>
                     </div>
-            
 
-                    <div class="info">
-                            
-                            <h3 class="info-h3">Website im 80s Snowsuit Style für "Im Schneetal" </h3>
-            
-                    </div>
                 </div>
                 
-            </section>
+                <!-- Traumplakate Poster-->
+                <div class="gridwrapper">
 
-            <section id="webdesign">
-
-                <div class="gridwrapper"> 
-
-                    <div class="aside">
-                        <h2 class="aside-h2">Corporate</h2>
+                    <div class="aside"> 
                     </div>
-
-
-                    <div class="content">
-                        <div class="videowrapper">
-               
-                        <video loop autoplay muted class="tablet">
-                            <source src="video/schrot.mp4" type="video/mp4">
-                            <source src="movie.ogg" type="video/ogg">
-                            Your browser does not support the video tag.
-                        </video>
-                 
-                        </div>
-            
-                                        
-
-                    </div>
-            
 
                     <div class="info">
-                            
-                            <h3 class="info-h3">Website für die "Korn/Schrot Mühle"</h3>
-            
+                        <h3 class="info-h3">Plakate <br> "Museum für Naturkunde Berlin"</h3>     
                     </div>
-                </div>
-                
-            </section>
-            <section id="corporate">
-
-                <div class="gridwrapper"> 
-
-                    <div class="aside">
-                        <h2 class="aside-h2">Corporate</h2>
-                    </div>
-
 
                     <div class="content">
-
-                           <!-- Swiper -->
-                                           <div class="swiper">
-                                            <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <figure class="figurequer"><img  src="img/impulse/logo1.svg" alt="Impulse Logo Bunt Schwarz" class="bilderquer">
-                                                </figure>
-                                            </div>     
-                                            <div class="swiper-slide">
-                                                <figure class="figurequer"><img src="img/impulse/logo2.svg" alt="Impulse Logo Weiß auf Schwarz" class="bilderquer">
-                                                </figure>
-                                            </div>     
-                                            <div class="swiper-slide">
-                                                <figure class="figurequer"><img src="img/impulse/logo3.svg" alt="Impulse Logo Schwarz auf weiß" class="bilderquer">
-                                                </figure>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <figure class="figurequer"><img src="img/impulse/megafon.svg" alt="megafon" class="merch3">
-                                                </figure>
-                                            </div>
-
-                                            <div class="swiper-slide">
-                                                <figure class="figurequer"><img src="img/impulse/poster_3.svg" alt="impulse poster" class="merch2">
-                                                </figure>
-                                            </div>   
-                                      
-                                            <div class="swiper-slide">
-                                                <figure class="figurequer"><img src="img/impulse/tasse.svg" alt="impulse tasse" class="merch3">
-                                                </figure>
-                                            </div>   
-                                            <div class="swiper-slide">
-                                                <figure class="figurequer"><img src="img/impulse/beanie.svg" alt="impulse beanie" class="merch">
-                                                </figure>
-                                            </div>   
-                                            <div class="swiper-slide">
-                                                <figure class="figurequer"><img src="img/impulse/shirt.svg" alt="impulse shirt" class="merch2">
-                                                </figure>
-                                            </div>   
-                                      
-                                      
-                                            </div>
-                                            <!-- Add Pagination -->
-                                            <div class="swiper-pagination"></div>
-                                            <!-- Add Arrows -->
-                                            <div class="swiper-button-next"></div>
-                                            <div class="swiper-button-prev"></div>
-                                        </div>
-            
-                                        
-
-                    </div>
-            
-
-                    <div class="info">
-                            
-                            <h3 class="info-h3">Corporate Design für das "Impulse Theater Festival"</h3>
-            
-                    </div>
-                </div>
-                
-            </section>
-
-            <section id="corporate">
-
-                <div class="gridwrapper"> 
-
-                    <div class="aside">
-                        <h2 class="aside-h2">Corporate</h2>
-                    </div>
-
-
-                    <div class="content">
-                          <!-- Swiper -->
-                          <div class="swiper">
+                        <!-- Swiper -->
+                        <div class="swiper">
                             <div class="swiper-wrapper">
+
+                            <div class="swiper-slide"> <figure class="figurequer"><img src="img/traumplakate/traumplakat_final.png" alt="Traumplakat 2" class="bilderhoch"></figure></div>
+
+                            <div class="swiper-slide"> <figure class="figurequer"><img src="img/traumplakate/traum1.png" alt="Traumplakat 1" class="bilderhoch"></figure></div>
+                        
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Magazinlayout Kourac-->
+                <div class="gridwrapper"> 
+
+                    <div class="aside">
+                    </div>
+
+                    <div class="info">      
+                        <h3 class="info-h3">Magazin Layout <br> "Jack Kourac"</h3>          
+                    </div>
+
+                    <div class="content">
+                        <figure id="jack">
+                            <img src="img/jack_kourac_neu.jpg" alt="jack_kourac" class="jack">
+                        </figure>                    
+                    </div>
+                    
+                </div>
+                
+                <!-- Albumcover Camel Moon -->
+                <div class="gridwrapper"> 
+
+                    <div class="aside">
+                    </div>
+
+                    <div class="info"> 
+                        <h3 class="info-h3">Cover Art <br> "Camel Moon"</h3>      
+                    </div>
+
+                    <div class="content">
+                        <!-- Swiper -->
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide"><figure class="figurequer"><img src="img/artsy/theworldcover.jpg" alt="twdna cover art" class="bilderquadrat"></figure></div>
+                            <div class="swiper-slide"><figure class="figurequer"><img src="img/artsy/childrencover.jpg" alt="children cover art" class="bilderquadrat"></figure></div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+
+            <!--Webdesign Section -->
+            <section id="webdesign">
+                <h2 class="aside-h2">Webdesign</h2>
+
+                <!-- Website Schneetal-->
+                <div class="gridwrapper"> 
+
+                    <div class="aside">
+                    </div>
+
+                    <div class="info">    
+                        <h3 class="info-h3">Website <br> "Im Schneetal" </h3>            
+                    </div>
+
+                    <div class="content">
+                        <div class="videowrapper">
+                            <video loop autoplay muted class="desktop">
+                                <source src="video/skiweb_mac.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                            <video loop autoplay muted class="mobil">
+                                <source src="video/skiweb_handy.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Website Kornmühle-->
+                <div class="gridwrapper"> 
+
+                    <div class="aside">   
+                    </div>
+
+                    <div class="info">        
+                        <h3 class="info-h3" >Website <br> "Korn & Schrot Mühle"</h3>
+                    </div>
+
+
+                    <div class="content">
+                        <div class="videowrapper">
+                            <video loop autoplay muted class="tablet">
+                                <source src="video/schrot.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>                  
+                    </div>
+                    
+                </div>
+                
+            </section>
+
+            <!-- Corporate Section-->
+            <section id="corporate">
+                <h2 class="aside-h2">Corporate</h2>
+
+                <!-- Pur-Biomarkt -->
+                <div class="gridwrapper"> 
+
+                    <div class="aside">
+                    </div>
+
+                    <div class="info">     
+                        <h3 class="info-h3">Corporate Design <br> "Pur-Biomarkt"</h3>
+                    </div>
+
+                    <div class="content" id="pur">
+                        <!-- Swiper -->
+                        <div class="swiper">
+                        <div class="swiper-wrapper">
+ 
                             <div class="swiper-slide">
-                                <figure class="figurequer"><img  src="img/pur/purlogo.svg" alt="Pur Logo" class="merch">
+                                <figure class="figurequer"><img src="img/pur/logo_white.svg" alt="Pur Logo" class="merch">
                                 </figure>
                             </div>     
                             <div class="swiper-slide">
-                                <figure class="figurequer"><img src="img/pur/biologo.svg" alt="Pur Logo" class="merch">
+                                <figure class="figurequer"><img  src="img/pur/logo_black.svg" alt="Pur Logo" class="merch">
                                 </figure>
-                            </div>     
+                            </div>  
                             <div class="swiper-slide">
                                 <figure class="figurequer"><img src="img/pur/karotte.svg" alt="Pur Karotte" class="merch">
                                 </figure>
                             </div>
                             <div class="swiper-slide">
-                                <figure class="figurequer"><img src="img/pur/biotasse.svg" alt="Pur Logo Tasse" class="merch3">
+                                <figure class="figurequer"><img src="img/pur/biomerch.svg" alt="Pur Logo Tasse" class="merch1">
                                 </figure>
                             </div>
-                            <div class="swiper-slide">
-                                <figure class="figurequer"><img src="img/pur/biobeanie.svg" alt="Pur Logo Beanie"class="merch">
-                                </figure>
-                            </div>  
-                            <div class="swiper-slide">
-                                <figure class="figurequer"><img src="img/pur/bioshirt.svg" alt="merch3"class="merch2">
-                                </figure>
-                            </div>    
-                            <div class="swiper-slide">
-                                <figure class="figurequer"><img src="img/pur/shirtfront.svg" alt="Pur Biomarkt T-Shirt"class="merch2">
-                                </figure>
-                            </div>   
-                            <div class="swiper-slide">
-                                <figure class="figurequer"><img src="img/pur/shirtback.svg" alt="Pur Biomarkt T-Shirt Back"class="merch2">
-                                </figure>
-                            </div>   
-                         
-                      
-                            </div>
-                            <!-- Add Pagination -->
-                            <div class="swiper-pagination"></div>
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                                    
                         </div>
 
-                        
-
-                        
-                  
-                    </div>
-            
-
-                    <div class="info">
-                            
-                            <h3 class="info-h3">Logo Design für den "Pur Biomarkt"</h3>
-            
-                    </div>
-                </div>
-                
-            </section>
-         
-
-
-      
-
-            <section id="logo">
-
-                <div class="gridwrapper">
-
-
-                    <div class="aside">
-
-                        <h2 class="aside-h2">Corporate</h2>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        </div>   
 
                     </div>
+               
+                </div>  
 
-                    <div class="content"> 
-                          <!-- Swiper -->
-                          <div class="swiper">
-                            <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <figure class="figurequer"><img  src="img/logos/logo.svg" alt="impulse logo" class="merch">
-                                </figure>
-                            </div>     
-                            <div class="swiper-slide">
-                                <figure class="figurequer"><img src="img/logos/logo1.svg" alt="impulse logo" class="merch2">
-                                </figure>
-                            </div>     
-                            <div class="swiper-slide">
-                                <figure class="figurequer"><img src="img/logos/logo2.svg" alt="impulse logo" class="merch2">
-                                </figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="figurequer"><img src="img/logos/logo3.svg" alt="impulse logo" class="merch2">
-                                </figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="figurequer"><img src="img/logos/logo4.svg" alt="impulse logo"class="merch2">
-                                </figure>
-                            </div>   
-                         
-                      
-                            </div>
-                            <!-- Add Pagination -->
-                            <div class="swiper-pagination"></div>
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-
-         
-                        
-       
-                
-                    </div>
-
-        
-                    <div class="info">
-
-                        <h3 class="info-h3"> Diverse Logoentwürfe für das "Impulse Theater Festival" </h3>
-        
-                    </div>
-
-
-                    
-                </div>
-
-            </section>
-            
-          
-
-
-
-
-
-
-            <section id="print">
-
+                <!-- Impulse Theater-->
                 <div class="gridwrapper"> 
 
                     <div class="aside">
-                        <h2 class="aside-h2">Print</h2>
                     </div>
 
-
-                    <div class="content">
-
-                            <figure id="jack">
-                                <img src="img/jack_kourac_neu.jpg" alt="jack_kourac" class="bilderquer">
-                         
-                            </figure>
-                     
-                    </div>
-            
-
-                    <div class="info">
-                            
-                            <h3 class="info-h3">Layout "Jack Kourac"</h3>
-            
-                    </div>
-                </div>
-                
-            </section>
-
-           
-
-
-            <section>
-
-                <div class="gridwrapper">
-
-                 
-                    <div class="aside">
-
-                        <h2 class="aside-h2">Print</h2>
-
+                    <div class="info">                  
+                        <h3 class="info-h3">Corporate Design <br> "Impulse Theater Festival"</h3>
                     </div>
 
-                  
                     <div class="content">
 
                         <!-- Swiper -->
                         <div class="swiper">
+
                             <div class="swiper-wrapper">
-                            <div class="swiper-slide"> <figure class="figurequer"><img src="img/traumplakate/traum1.png" alt="Traumplakat 1" class="bilderhoch"></figure></div>
-                            <div class="swiper-slide"> <figure class="figurequer"><img src="img/traumplakate/traumplakat_final.png" alt="Traumplakat 2" class="bilderhoch"></figure></div>
-                          
+
+                                <div class="swiper-slide">
+                                    <figure class="figurequer" ><img src="img/impulse/logo2.svg" alt="Impulse Logo Weiß auf Schwarz" class="bilderquer">
+                                    </figure>
+                                </div>     
+                                <div class="swiper-slide">
+                                    <figure class="figurequer"><img src="img/impulse/logo3.svg" alt="Impulse Logo Schwarz auf weiß" class="bilderquer">
+                                    </figure>
+                                </div> 
+                                <div class="swiper-slide" >
+                                    <figure class="figurequer" ><img  src="img/impulse/logo1.svg" alt="Impulse Logo Bunt Schwarz" class="bilderquer">
+                                    </figure>
+                                </div>  
+                                <div class="swiper-slide">
+                                    <figure class="figurequer"><img src="img/impulse/merch1.svg" alt="impulse merch" class="merch1">
+                                    </figure>
+                                </div> 
+                                <div class="swiper-slide">
+                                    <figure class="figurequer"><img src="img/impulse/poster_3.svg" alt="impulse poster" class="merch2">
+                                    </figure>
+                                </div>  
+
+   
+                   
+                            </div>
+
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+
+                        </div>                 
+
+                    </div> 
+ 
+
+                </div>
+
+                <!-- Weitere Logos Impulse Theater-->               
+                <div class="gridwrapper">
+
+                    <div class="aside">
+                    </div>
+
+                    <div class="info">
+                        <h3 class="info-h3"> Logovarianten <br> "Impulse Theater Festival" </h3>
+                    </div>
+
+                    <div class="content" id="logovarianten"> 
+                        <!-- Swiper -->
+                        <div class="swiper">
+
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <figure class="figurequer"><img  src="img/logos/logo.svg" alt="impulse logo" class="merch">
+                                    </figure>
+                                </div>     
+                                <div class="swiper-slide">
+                                    <figure class="figurequer"><img src="img/logos/logo1.svg" alt="impulse logo" class="merch2">
+                                    </figure>
+                                </div>     
+                                <div class="swiper-slide">
+                                    <figure class="figurequer"><img src="img/logos/logo4.svg" alt="impulse logo"class="merch2">
+                                    </figure>
+                                </div>   
+                            </div>
+
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+
+                        </div>
+                    </div>
+       
+                </div>
+
+            </section>
+
+            <!-- Typography-->
+            <section id="typografie">
+                <h2 class="aside-h2">Typography</h2>
+
+                <!-- Typografie Postkarten-->
+                <div class="gridwrapper">
+
+                    <div class="aside"></div>
+
+                    <div class="info">
+                        <h3 class="info-h3"> Typography <br> Postkarten</h3>
+                    </div>
+
+                    <div class="content"> 
+                        <!-- Swiper -->
+                        <div class="swiper">
+
+                            <div class="swiper-wrapper"id="postkarten">
+                                <div class="swiper-slide" >
+                                    <figure class="figurequer"><img src="img/postkarten/post1.svg" alt="Maß ist voll" class="bilderquer">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="figurequer"><img src="img/postkarten/post2.svg" alt="Lange Rede"class="bilderquer">
+                                    </figure>
+                                </div>     
+                                <div class="swiper-slide">
+                                    <figure class="figurequer"><img  src="img/postkarten/post3.svg" alt="Hochmut" class="bilderquer">
+                                    </figure>
+                                </div>     
+                                <div class="swiper-slide">
+                                    <figure class="figurequer"><img src="img/postkarten/post4.svg" alt="Wer rastet" class="bilderquer">
+                                    </figure>
+                                </div>     
+                                <div class="swiper-slide">
+                                    <figure class="figurequer"><img src="img/postkarten/post5.svg" alt="Ein Geschenk" class="bilderhoch" >
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </section>
+           
+
+
+            <!-- Photography-->
+            <section id="photography">
+                <h2 class="aside-h2">photography</h2>
+
+                <div class="gridwrapper"> 
+
+                    <div class="aside">
+                    </div>
+
+                    <div class="info">
+                        <h3 class="info-h3">Photogaphy <br> "Cakewalk in Leipzig"</h3>
+                    </div>
+
+                    <div class="content">
+                        <!-- Swiper -->
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><figure class="figurequer" ><img src="img/fotoleipzig/fotoweb.jpg" alt="Wand und Jacke" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb2.jpg" alt="Rutsche und Wand" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb3.jpg" alt="Baum durch Zaun und Rohr" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb4.jpg" alt="Vonovia Plakat und kaputte Fassade" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb5.jpg" alt="Bunte Wand und Müll" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb6.jpg" alt="Mülltone und Müll" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb7.jpg" alt="Einkauswagen mit Müll und Verschenke Fahrrad" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb8.jpg" alt="Bunte Wand und Monster" class="bilderquer"></figure></div>
                             </div>
                             <!-- Add Pagination -->
                             <div class="swiper-pagination"></div>
@@ -465,234 +494,53 @@
                             <div class="swiper-button-prev"></div>
                         </div>
 
-
-                     </div>
-
-                     <div class="info">
-
-                        <h3 class="info-h3">Plakat Design für das "Museum für Naturkunde Berlin"</h3>
-        
                     </div>
 
-
-
-                
-            </section>
-
-            <section>
-
-                <div class="gridwrapper">
-
-                    
-                    <div class="aside">
-
-                        <h2 class="aside-h2">Print</h2>
-
-                    </div>
-
-
-
-                    <div class="content"> 
-
-                             <!-- Swiper -->
-                             <div class="swiper">
-                                <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <figure class="figurequer"><img src="img/postkarten/1w.png" alt="Maß ist voll" class="bilderquer">
-                                    </figure>
-                                </div>
-                                <div class="swiper-slide">
-                                    <figure class="figurequer"><img src="img/postkarten/2.png" alt="Lange Rede"class="bilderquer">
-                                    </figure>
-                                </div>     <div class="swiper-slide">
-                                    <figure class="figurequer"><img  src="img/postkarten/3.png" alt="Hochmut" class="bilderquer">
-                                    </figure>
-                                </div>     <div class="swiper-slide">
-                                    <figure class="figurequer"><img src="img/postkarten/4.png" alt="Wer rastet" class="bilderquer">
-                                    </figure>
-                                </div>     <div class="swiper-slide">
-                                    <figure class="figurequer"><img src="img/postkarten/5_2.png" alt="Ein Geschenk"  >
-                                    </figure>
-                                </div>
-                                </div>
-                                <!-- Add Pagination -->
-                                <div class="swiper-pagination"></div>
-                                <!-- Add Arrows -->
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-                            </div>
-
-                            
-                    
-                    </div>
-
-                    <div class="info">
-
-                        <h3 class="info-h3"> Typografie design</h3>
-        
-                    </div>
- 
-                </div>
-            </section>
-
-
-      
-
-            <section id="photography">
-
-                <div class="gridwrapper"> 
-
-                    <div class="aside">
-                        <h2 class="aside-h2">photography</h2>
-                    </div>
-
-
-                  
-
-
-                    <div class="content">
-
-                    <!-- Swiper -->
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                        <div class="swiper-slide"><figure class="figurequer"><img src="img/cover/cover_1.jpeg" alt="hello" class="bilderquer"></figure></div>
-                        <div class="swiper-slide"><figure class="figurequer"><img src="img/cover/helio.jpg" alt="helio" class="bilderquer"></figure></div>
-                        </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-
-
-                     
-                    </div>
-            
-
-                    <div class="info">
-                            
-                            <h3 class="info-h3">Cover art Fotografie für "The Casey Jr. Ride"</h3>
-            
-                    </div>
                 </div>
                 
             </section>
 
-
-            <section id="artsy">
-
-                <div class="gridwrapper"> 
-
-                    <div class="aside">
-                        <h2 class="aside-h2">artsy</h2>
-                    </div>
-
-
-                  
-
-
-                    <div class="content">
-
-                    <!-- Swiper -->
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                        <div class="swiper-slide"><figure class="figurequer"><img src="img/artsy/theworldcover.jpg" alt="twdna cover art" class="bilderquer"></figure></div>
-                        <div class="swiper-slide"><figure class="figurequer"><img src="img/artsy/childrencover.jpg" alt="children cover art" class="bilderquer"></figure></div>
-                        </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-
-
-                     
-                    </div>
-            
-
-                    <div class="info">
-                            
-                            <h3 class="info-h3">Cover Art für "Camel Moon"</h3>
-            
-                    </div>
-                </div>
-                
-            </section>
-
-            
+            <!-- Contact -->
             <section id="contact">
+                <h2 class="aside-h2">Contact</h2>
 
                 <div class="gridwrapper"> 
 
                     <div class="aside">
-                        <h2 class="aside-h2">Contact</h2>
                     </div>
 
+                    <div class="info">        
+                        <h3 class="info-h3"></h3>
+                    </div>
 
                     <div class="content">
-
                         <article class="contact">
-                         
-                       
-                        
-                        <h4> Dir hat mein Portfolio gefallen?... schreib mir gerne eine Mail an!</h4>
-                        
-                        <ul>
-                            <li><a href="mailto:ysiggi@gmail.com">ysiggi@gmail.com</a></li>
-                        </ul>
-                        </article>
-                
-               
-
-                        
-                    </div>
-            
-
-                    <div class="info">
+                            <h4> Dir hat mein Portfolio gefallen? <br> Schreib mir gerne eine Mail!</h4>
+                            <a href="mailto:ysiggi@gmail.com">ysiggi@gmail.com</a>
                             
-                            <h3 class="info-h3"></h3>
-            
+                        </article>
+                        
                     </div>
+            
                 </div>
-                
             </section>
-
-
 
         </div>
-
-        
-
-     
-
     </main>
 
-
-
-    <footer>
-
-        <div class="maincontainer2">
-            
-            <article id="datenschutz">
-                <a href="/datenschutz.html">Datenschutz</a>
-            </article>  
-    
-            
-    
-
-
-        </div>
-  
-    </footer>
-    <script src="js/menu.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/swiper.js"></script>
-    <script src="js/scroll.js"></script>
-
-
+<footer>
+    <article id="datenschutz">
+        <a href="/datenschutz.html">Datenschutz</a>
+    </article>  
+</footer>
+ 
 </body>
 
+
+
+<script src="js/menu.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/scroll.js"></script>
 
 </html>
