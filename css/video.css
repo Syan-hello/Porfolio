@@ -1,78 +1,103 @@
 .videowrapper {
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: block;
-    flex-direction: column;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    height: 100%;
-    width:100%;
- 
-    
-    
+    height: auto;
+    width: 100%; 
+   
 }
 .desktop {
     width:100%;
-   
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    display: none;   
+    border: solid #333 0.5rem;
+    border-radius: 20px;
+    border-right: solid #333 .53rem ;
+
+
 }
 
 .tablet {
     margin-left: auto;
     margin-right: auto;
     width:100%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    border: solid #333 0.5rem;
+    border-radius: 2rem;
+
 }
 
 .mobil {
-    margin-top: 4rem;
-    width: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    width: 300px;
+    height: auto;
+    border: solid #333 0.5rem;
+    border-radius: 1rem;
+    
+
     
 }
 
-@media (min-width: 636px){
+@media (min-width:767px){
     .mobil {
         width: auto;
         height: 380px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
-        
     }
 
+    .tablet {
+        height: 400px;
+        width: auto;
+    }
 
+    .desktop{
+        width: 60%;
+        display: block;
+       
+    }
 
-
-}
-
-@media (min-width: 1008px){
     .videowrapper {
+        height: auto;
         display: flex;
-        height: 100%;
         width:100%;
         justify-content: space-around;
+        flex-direction: row;
         align-items: center;
         
         
     }
 
 
-.desktop {
-  height: 360px;
-  width: auto;
+}
 
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+@media (min-width: 1024px){
+
+
+
+.videowrapper {
+    flex-wrap: nowrap;
+    gap: 1rem;
+   
+}
+
+.desktop {
+    
+  width:100%;
+  max-width: 800px;
+
 }
 
 .mobil {
     width: auto;
-    height: 260px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    height: 300px;
+    margin: 0;
+    
     
 }
 
 .tablet {
-    width: 550px;
+    height: auto;
+
+    width: 100%;
+    max-width: 800px;
    
 }
 }

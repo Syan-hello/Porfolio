@@ -1,0 +1,159 @@
+div .gridwrapper{
+    position: relative;
+    display: block;
+    }
+
+
+.aside {
+    grid-area:aside; 
+    margin-bottom: 0.5rem;
+    
+}
+
+.aside-h2{
+    font-family:'Rubik';
+    color: #333;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: end;
+
+}
+.info {
+    grid-area: info;
+    _border-top: solid #3333336c 0.1rem;
+    _background-color: #d8ffc4;  
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content:end;
+    
+}
+
+
+.info-h3 {
+    font-family:'Rubik Regular'; 
+    color: #333333;
+    font-size: 1.1rem;
+    text-align: end;
+    text-transform: uppercase;
+    line-height: 1.2;
+    max-width: 200px;
+    padding: 0px 1px 1rem 1rem;
+   
+}
+
+.content {
+    grid-area:con;
+    display: flex;
+    align-items:first baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    width: 100%;
+    height: auto;
+}
+
+#contact .content {
+    margin-bottom: 0;
+}
+
+.content img{
+    max-width: 100%;
+  
+}
+
+
+
+
+
+
+@media (min-width: 767px){
+
+    
+    .aside-h2{
+        text-align: end;
+        padding-top: 0;
+        font-size: 4rem;  
+      
+    }
+
+    .aside{
+        z-index: 100;
+     
+    }
+    
+    .info {
+        margin-top: 20px;
+             
+    }
+}
+
+@media (min-width: 1024px){
+
+   div .gridwrapper { 
+    display: grid;
+    height: 1000px;
+    grid-template-columns: 20% 70% 10%;
+    grid-template-areas:  
+    "aside  con info" ; 
+    
+    }
+
+    #hello .gridwrapper{
+        height: 800px;
+    }
+
+    #contact .gridwrapper{
+        height: 600px;
+    }
+    #contact .content{
+        margin-bottom: 0;
+        height: 500px;
+    }
+
+
+    .aside{
+        z-index: 10;
+        margin-bottom: 1rem;
+    
+    }
+
+    .aside-h2{
+        font-size: 7rem;
+        z-index: 1000;
+        
+    }
+    #hello .aside-h2 {
+        margin-top: 0;
+    }
+
+    #layout .aside-h2 {
+        margin-top: -1rem;
+    }
+
+    #pur {
+        padding: 0;
+    }
+
+    .content {
+        align-items:first baseline;
+        justify-content: center;
+        z-index: 10;
+        margin-top: 3rem;
+        margin-bottom: 9rem;
+    }
+
+
+    .info {
+        border: none;
+        _border-bottom: solid 1px;
+        padding-bottom: 1rem;
+        background-color: white;
+        padding-right: 1rem;
+        
+    }
+
+    .info h3{
+        font-size: 1.4rem;
+    }
+    }

@@ -1,58 +1,52 @@
-.swiper {
-  width: 100%;
-  height: 100%;
+/* Custom Cursor */
+.swiper{
+  cursor: url('/img/PNG/swipe1.png'), auto; /* Setze benutzerdefinierte Cursor-Datei */
+  position: relative; /* Wichtig für Cursor-Animationen */
 
 }
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    _background: #f90707;
+/* Cursor beim Drücken */
+.swiper:active {
+  cursor: url('/favicon/apple-touch-icon.png'), auto;
+}
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-
-  .swiper-wrapper {
-    transition-timing-function: linear;
-  }
-
-  .swiper-button-next, 
+/* Buttons und Pagination */
+.swiper-button-next, 
 .swiper-button-prev {
-  color: #fa5480;
+  color:#848ff9;
+  display: block; /* Versteckt, da du die Benutzer auf Swipen lenken willst */
 }
 
-.swiper-button-next:after, 
-.swiper-button-prev:after {
-  font-size: 30px;
+.swiper-pagination-bullet {
+  background-color: var(--rot) ;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: red !important;
-  }
+  background-color: #D0D4FB!important;
+}
+
+/* Slides */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 0;
+  padding-bottom: 2rem;
   
-  .swiper-pagination-bullet {
-    background-color: rgba(255, 0, 0, 0.5);
+}
+
+
+
+#postkarten {
+  height: 350px;
+}
+
+@media (min-width: 1024px){
+  
+  #postkarten{
+    height: auto;
   }
-
-
-@media (min-width:1008px){
 
   
-  .swiper {
-    width: 100%;
-    height: 100%;
-
-  }
 }

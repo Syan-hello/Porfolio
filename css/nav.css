@@ -15,7 +15,7 @@
   /* für die einzelen Linien*/
   #icon span{
     position:absolute;
-    height: 9px;
+    height: 7px;
     border-radius: 2px;
     width: 35px;    
     background-color: var(--gelb);
@@ -63,13 +63,18 @@
 
   #menue {
     position: absolute;
-    background-color: #fa5480;
+    background-color: #fb628b;
+    background-color: #fbf7d0;
+    background-color: #D0D4FB;
+
+ 
+
     z-index: 100;
     width: 100%;
+    _border-bottom:solid 0.1rem;
   }
   #navId{
     display: block;
-
     position: sticky;
     top: 0rem;
     z-index: 24400;
@@ -77,36 +82,34 @@
 
   }
   nav ul{
-    overflow: hidden; /* scrollen verhindern, und überfleisenden Text verstecken. */
+    overflow: hidden; 
    
   }
   nav ul li{
-    display:inline; /* nebeneinander für die Listenpunkte */
+    display:inline; 
    
   }
   nav ul li a{
-    color:#000;
     text-decoration: none;
-    font-size: 1.2rem;
-  }
-  nav ul li a:hover{
-    color:#4cc4f7;
+    font-size: 1.7rem;
+    
   }
 
   
     /* Höhe für das Menu */
+
   #menue.einblenden{     /* Einstellung für die Klasse einblenden , Höhe auf automatisch */
   height: 100vh;
   background-color: rgba(248, 236, 228, 0.931);
+  background-color: #D0D4FB;
   display: block;
-
 
   }
 
 
 
 
-/* !!!!!! Höhe auf 20vh */ 
+/*  NAVIGATION EINGEBLENDET */ 
 
 
   #icon{
@@ -122,105 +125,71 @@
   }
   nav ul li{
     display: block; /* !!!!!!! damit die Menupunkte untereinander stehen */
-    margin: 50px 50px 20px 20px; 
+    margin: 40px 40px 20px 20px; 
 
   }
 
 
-  /*___________SKIER----------*/
+  /* ------ LINES -*/
 
   #menue span{
-    background-color: #4cc4f7;
-    height: 1px;
+    background-color: var(--gelb);
+    border: solid #333 0.1px;
+    height: 3px;
     width: 100%;
     z-index: 2000;
     position: absolute;
   
   }
-
+   
 
    
-@media (min-width:1008px) {
+@media (min-width:1024px) {
 
     #icon {
         display: none;
     } 
     nav ul{
-        height: auto;
-
-        max-width: 200px;
-        font-size: 2rem;
-        padding-top: 0px;
+        height:auto;
+        max-width: 250px;
+        padding: 0px;
+        padding-top: 20px;
         display: block;
         list-style-type: none;
         background-color: white;
-        _box-shadow: 2em 1em 1em #6bd6c6;
-        _box-shadow: 2em 1em 1em #f5e8e8;
-        _box-shadow: 5px 0 5px rgb(251, 251, 250) inset;
-        _padding: 5rem 1rem 1rem 0rem;
-        _justify-content: start;
-        
-        
+ 
        
       }
 
-      nav ul li{
-        display: block; /* !!!!!!! damit die Menupunkte untereinander stehen */
-        margin: 40px 10px 20px 30px; 
-    
-      }
 
-         
-    
-    
-    nav li a{ 
+    nav ul li { 
+      margin: 0px 50px 0px 5px;
       display: block;
-      width: 200px;
-        font-family:'Rubik Light';
-        font-size: 1.2rem;
-        _border-right: 1px solid #3e3c3c;
-      _background-color: rgba(254, 255, 218, 0.698);
-
-        
+      padding: 0;
+      padding-left: 5%;
+      width: 20px;
+      font-family:'Rubik Light';
       
-    }
-    
-    nav li:hover {
-        _background-color: aquamarine;
-        color: #4cc4f7;
-        padding-right: 1rem;
-      
-    
-    
-    }
-    
-    nav li:nth-child(1){
-         _border-left: 1px solid #333;
-         _border-bottom-left-radius: 0.2rem;
-         _border-top-left-radius: 0.2rem;
-      
-    }
-    
-    nav li:last-child{
-        _border-right: 1px solid #3e3c3c;
-        -border-bottom-right-radius: 0.2rem;
-        _border-top-right-radius: 0.2rem;
-        
+ 
     }
 
-
-
+    nav ul li a {
+      font-size: 2.5rem;
+      color: #333;
+    }
+    
     #menue span{
-
+      display: none;
       height: 0px;
       width: 100%;
       z-index: 2000;
       position: absolute;
-    
     }
 
     #menue {
       background-color: white;
+      border-bottom-right-radius: 2rem;
+
     }
 
     #menue.einblenden{
@@ -228,82 +197,8 @@
       
     }
 
-
     
 }
 
 
-
-
-
-  /* _____NAVIGATION___ALT_____*/
-
-/*
-nav ul {
-    display: none;
-    list-style-type: none;
-    box-shadow: 2em 1em 1em #6bd6c6;
-    box-shadow: 2em 1em 1em #f5e8e8;
-	box-shadow: 5px 0 5px rgb(251, 251, 250) inset;
-    padding: 5rem 1rem 1rem 0rem;
-    justify-content: start;
-    
-       
-}
-
-nav li {
-    font-family:'Rubik Regular';
-    font-weight: 300;
-    font-size: 1.3rem;
-    _border-right: 1px solid #3e3c3c;
-  _background-color: rgba(254, 255, 218, 0.698);
-    
-    padding: 5px 5px 5px 5px; 
-    
-  
-}
-
-nav li:hover {
-    _background-color: aquamarine;
-    padding: 1.5rem;
-  
-
-
-}
-
-nav li:nth-child(1){
-     _border-left: 1px solid #333;
-     _border-bottom-left-radius: 0.2rem;
-     _border-top-left-radius: 0.2rem;
-  
-}
-
-nav li:last-child{
-    _border-right: 1px solid #3e3c3c;
-    -border-bottom-right-radius: 0.2rem;
-    _border-top-right-radius: 0.2rem;
-    
-}
-
-a {
-    text-decoration: none;
-    color: #333;
-
-}
-
-a:hover {    
-    opacity: white;
-
-}
-
-
-
-
-
-  }
-  */
-
-
-
-  
 

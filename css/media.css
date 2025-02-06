@@ -5,11 +5,9 @@
     background-image: url(/img/SVG/ich_skate2.svg);
     background-repeat: no-repeat;
     position: fixed;
-        top: 1.5%;
-        right: 3%;
-       
-        z-index: 99002;
-           
+        top: 10px;
+        right: 2%;
+        z-index: 99002; 
         animation-name: example;
         animation-duration: 8s;
         animation-delay: 2s;
@@ -22,7 +20,7 @@
 }
 
 @keyframes example {
-    0%   {right:1%; top:5%;}
+    0%   {right:2%; top:10px;}
     15%  {right:200px; top:5%;}
   
     65%  { right:800px; top:5%;}
@@ -32,23 +30,18 @@
 
 
 
-@media (min-width: 641px){
+@media (min-width: 767px){
     
 
     #myselfId {
-        display: flex;
-        justify-content: end;
-        width: 100px;
-        height: 100px;
+        height: 70px;
         background-image: url(../img/SVG/ich_skate2.svg);
         background-repeat: no-repeat;
         _background-color: rgb(255, 64, 0);
         object-fit: cover;
         position: fixed;
-        top: 2rem;
-        right: 2%;
-       
         z-index: 9002;
+        
     }
    
 
@@ -57,7 +50,7 @@
    
         background-image: url(/img/SVG/ich_skate.svg);
         width: 140px;
-        height: 120px;
+        height: 140px;
 
     }
     
@@ -69,22 +62,23 @@
 /*__________full screeeen___________*/
 
 
-@media (min-width: 1008px){
+@media (min-width: 1024px){
 
     #myselfId {
-        width: 110px;
+        width: 70px;
         height: 110px;
+        top: 45vh;
        }  
 
 
  
 
     #sesselId {
-        width: 12rem;
+        width: 13rem;
         height: 10rem;
         position: fixed;
-        left: 10%;
-        bottom: 5%;
+        left: 2%;
+        bottom: 7%;
         z-index: 100002;
     }
 
