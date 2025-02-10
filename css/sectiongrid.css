@@ -92,11 +92,11 @@ div .gridwrapper{
 
    div .gridwrapper { 
     display: grid;
-    height: 1000px;
+    height: 800px;
     grid-template-columns: 20% 70% 10%;
     grid-template-areas:  
     "aside  con info" ; 
-    
+    margin-bottom: 200px;
     }
 
     #hello .gridwrapper{
@@ -109,6 +109,7 @@ div .gridwrapper{
     #contact .content{
         margin-bottom: 0;
         height: 500px;
+        padding-top: 4rem;
     }
 
 
@@ -139,7 +140,6 @@ div .gridwrapper{
         align-items:first baseline;
         justify-content: center;
         z-index: 10;
-        margin-top: 3rem;
         margin-bottom: 9rem;
     }
 

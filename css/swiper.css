@@ -37,16 +37,3 @@
 }
 
 
-
-#postkarten {
-  height: 350px;
-}
-
-@media (min-width: 1024px){
-  
-  #postkarten{
-    height: auto;
-  }
-
-  
-}

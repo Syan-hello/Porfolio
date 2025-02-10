@@ -29,7 +29,7 @@ function ueberwachung() {
         id1.style.color = "#333";
     }
 
-    if (y >= 600 && y <= 3000) {
+    if (y >= 600 && y <= 4500) {
         id2.style.padding = "1rem";
         id2.style.color = "#a1aafa";
     } else {
@@ -37,7 +37,7 @@ function ueberwachung() {
         id2.style.color = "#333";
     }
 
-    if (y >= 3000 && y <= 6000) {
+    if (y >= 4500 && y <= 6000) {
         id3.style.padding = "1rem";
         id3.style.color = "#a1aafa";
     } else {
