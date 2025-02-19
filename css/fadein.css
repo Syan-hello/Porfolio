@@ -1,0 +1,43 @@
+/*Keyframe Animation für den Text oder Boxen auf der Homepage 
+ Das Element, das faden soll muss die Klasse .in-left bekommen */
+
+ .in-left {
+    animation-name: fadeInLeft;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+
+
+    /* animation: fadeInLeft both 0.5s 0.1s */
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.in-right {
+    animation-name: fadeInRight;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    /* animation: fadeInLeft both 0.5s 0.1s */
+}
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(500px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

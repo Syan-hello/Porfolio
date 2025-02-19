@@ -36,7 +36,7 @@ header, main {
 }
 
 section {
-    padding-top: 7rem; 
+    padding-top: 5rem; 
 }
 
 
@@ -61,7 +61,7 @@ footer {
 
 #datenschutz a {
     font-family: 'Rubik Regular';
-    color: var(--gelb);
+    color: var(--blau);
     
 }
 

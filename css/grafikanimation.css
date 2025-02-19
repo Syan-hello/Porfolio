@@ -1,0 +1,109 @@
+#myselfId {
+    display: block;
+    width: 50px;
+    height: 120px;
+    background-image: url(/img/SVG/ich_skate2.svg);
+    background-repeat: no-repeat;
+    position: fixed;
+        top: 15px;
+        right: 3%;
+        z-index: 99002; 
+        animation-name: example;
+        animation-duration: 8s;
+        animation-delay: 1s;
+
+}
+
+#sesselId{
+    position: fixed;
+}
+
+@keyframes example {
+    0%   {right:3%; top:15px;}
+    5%   {right:100px; top:15px;}
+    15%  {right:200px; top:5%;}
+    35%  {right:400px; top:5%;}
+    65%  {right:600px; top:5%;}
+    75%  {right:800px; top:5%;}
+    78% {right:1800px; top:5%; rotate: 0;}
+    90% {right:1800px; top:60%; rotate:-56deg}
+    100% {right:1800px; top:75%; rotate:-90deg;}
+  
+}
+
+
+
+@media (min-width: 767px){
+    
+
+    #myselfId {
+        height: 70px;
+        background-image: url(../img/SVG/ich_skate2.svg);
+        background-repeat: no-repeat;
+        _background-color: rgb(255, 64, 0);
+        object-fit: cover;
+        position: fixed;
+        z-index: 9002;
+        
+    }
+   
+
+    #myselfId:hover {
+        background-image: url(/img/SVG/ich_skate.svg);
+        width: 140px;
+        height: 140px;
+
+    }
+    
+    
+}
+
+
+
+/*__________full screeeen___________*/
+
+
+@media (min-width: 1024px){
+
+    #myselfId {
+        width: 70px;
+        height: 110px;
+        top: 45vh;
+
+        animation-name: example;
+        animation-duration: 6s;
+        animation-delay: 0.5s;
+        animation-timing-function: linear;
+       
+       }  
+
+
+ 
+
+    #sesselId {
+        width: 13rem;
+        height: 10rem;
+        position: fixed;
+        left: 3%;
+        bottom: 7%;
+        z-index: 10002;
+    }
+
+    @keyframes example {
+        0%   {right:3%; top:45vh;}
+    
+        30%  {right:45vw; top:2vh; rotate: 180deg; }
+        75% { right:85vw; top:35vh; rotate: 360deg; }
+
+        90% { right:89vw; top:80vh; rotate:360deg;}
+   
+        100% { right:110vw; top:90vh; rotate:-90deg;}
+      
+    }
+    
+
+
+
+
+}
+

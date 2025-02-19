@@ -8,7 +8,15 @@
     src: url('../fonts/rubik-v28-latin/rubik-v28-latin-300.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik Italic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/rubik-v28-latin/rubik-v28-latin-300italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 /* rubik-regular - latin */
 @font-face {
@@ -43,14 +51,16 @@
 }
 
 
-
   :root{
     --white: rgb(251, 251, 250);
     --grau: rgba(128,128,128,0,5);
-    --blau: #CDFCF8;
+    --blau: #a1aafabd;
     --gelb: #FCF8CD;
     --rot: #fa5480;
     --rose: #F8CDFC; 
+    background-color: #fb628b;
+    background-color: #fbf7d0;
+    background-color: #D0D4FB;
 
 }
 

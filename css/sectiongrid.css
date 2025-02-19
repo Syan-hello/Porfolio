@@ -11,35 +11,38 @@ div .gridwrapper{
 }
 
 .aside-h2{
-    font-family:'Rubik';
+    font-family:'Rubik Bold';
     color: #333;
-    font-size: 2.5rem;
-    text-transform: uppercase;
+    font-size: 3.5rem;
+    text-transform: lowercase;
     width: 100%;
     text-align: end;
+
+  
+
 
 }
 .info {
     grid-area: info;
     _border-top: solid #3333336c 0.1rem;
     _background-color: #d8ffc4;  
-    border-radius: 0.8rem;
-    display: flex;
-    justify-content:end;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
     
 }
 
 
 .info-h3 {
-    font-family:'Rubik Regular'; 
+    font-family:'Rubik Light'; 
     color: #333333;
-    font-size: 1.1rem;
+    font-size: 2rem;
     text-align: end;
-    text-transform: uppercase;
+    _text-transform: uppercase;
     line-height: 1.2;
-    max-width: 200px;
-    padding: 0px 1px 1rem 1rem;
-   
+    _max-width: 250px;
+    height: auto;
+    border-radius: 0.8rem;
+    
 }
 
 .content {
@@ -48,7 +51,7 @@ div .gridwrapper{
     align-items:first baseline;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 5rem;
+    margin-bottom: 9rem;
     width: 100%;
     height: auto;
 }
@@ -69,6 +72,11 @@ div .gridwrapper{
 
 @media (min-width: 767px){
 
+    .content {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
     
     .aside-h2{
         text-align: end;
@@ -78,13 +86,11 @@ div .gridwrapper{
     }
 
     .aside{
-        z-index: 100;
-     
+        z-index: 100; 
     }
     
     .info {
-        margin-top: 20px;
-             
+        margin-top: 20px;        
     }
 }
 
@@ -93,7 +99,7 @@ div .gridwrapper{
    div .gridwrapper { 
     display: grid;
     height: 800px;
-    grid-template-columns: 20% 70% 10%;
+    grid-template-columns: 20% 65% 15%;
     grid-template-areas:  
     "aside  con info" ; 
     margin-bottom: 200px;
@@ -112,6 +118,9 @@ div .gridwrapper{
         padding-top: 4rem;
     }
 
+    .slider {
+        padding-top: 0.5rem;
+    }
 
     .aside{
         z-index: 10;
@@ -148,12 +157,11 @@ div .gridwrapper{
         border: none;
         _border-bottom: solid 1px;
         padding-bottom: 1rem;
-        background-color: white;
-        padding-right: 1rem;
         
     }
 
     .info h3{
         font-size: 1.4rem;
+        padding-left: 0;
     }
     }

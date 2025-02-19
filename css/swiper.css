@@ -13,7 +13,7 @@
 /* Buttons und Pagination */
 .swiper-button-next, 
 .swiper-button-prev {
-  color:#848ff9;
+  color:var(--blau);
   display: block; /* Versteckt, da du die Benutzer auf Swipen lenken willst */
 }
 
@@ -22,7 +22,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #D0D4FB!important;
+  background-color: var(--blau)!important;
 }
 
 /* Slides */
@@ -34,6 +34,14 @@
   padding: 0;
   padding-bottom: 2rem;
   
+  
 }
 
+.swiper-wrapper{
+  height: auto;
+ 
+  display: flex;
+  align-items: center;
+
+}
 
