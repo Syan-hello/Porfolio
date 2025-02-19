@@ -131,11 +131,6 @@
         object-fit: cover;
     }
 
-    #photography .content{
-        display: flex;
-        justify-content: space-around;
-    }
-
 
 }
 
@@ -179,15 +174,14 @@
         object-fit: cover;
     }
 
-    #photography .content{
-        display: flex;
-        justify-content: space-around;
-    }
-   
     #jack {
         width: 100%;
         max-width: 800px;
         object-fit: cover;
+    }
+
+    #photography .content{
+        padding-top: 2rem;
     }
 
 

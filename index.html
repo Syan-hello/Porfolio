@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/fontsundfarbe.css">
     <link rel="stylesheet" href="css/sectiongrid.css">
+    <link rel="stylesheet" href="css/hello.css">
     <link rel="stylesheet" href="css/content.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/grafikanimation.css">
+    <link rel="stylesheet" href="css/fadein.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/video.css">
@@ -39,25 +42,25 @@
             </div>
             <ul id="menue">
 
-                <li> <a id="nav-hello" class="menu-item" href="#hello">hello</a></li>
+                <li> <a id="nav-hello" class="menu-item" href="#hello">hallo</a></li>
                 <span></span>
             
                 <li> <a id="nav-layout" class="menu-item" href="#layout">layout</a></li>
                 <span></span>
 
-                <li> <a id="nav-web" class="menu-item" href="#webdesign">webdesign</a></li>
+                <li> <a id="nav-web" class="menu-item" href="#webdesign">web</a></li>
                 <span></span>
             
                 <li> <a id="nav-corporate" class="menu-item" href="#corporate">corporate</a></li>
                 <span></span>
 
-                <li> <a id="nav-typo" class="menu-item" href="#typografie">typografie</a></li>
+                <li> <a id="nav-typo" class="menu-item" href="#typography">typografie</a></li>
                 <span></span>
 
-                <li > <a id="nav-photo" class="menu-item" href="#photography">photography</a></li>
+                <li > <a id="nav-photo" class="menu-item" href="#photography">fotografie</a></li>
                 <span></span>
 
-                <li> <a id="nav-contact" class="menu-item" href="#contact">contact</a></li>
+                <li> <a id="nav-contact" class="menu-item" href="#contact">kontakt</a></li>
                 <span></span>
 
             </ul>
@@ -76,7 +79,7 @@
         
             <!-- Hero Section -->
             <section id="hello">
-                <h2 class="aside-h2">Hello</h2>
+                <h2 class="aside-h2">Hallo</h2>
 
                 <div class="gridwrapper">
 
@@ -87,17 +90,20 @@
                     </div>
 
                     <div class="content" id="webichwrapper"> 
-                        <figure id="webich">
-                            
-                            <img src="img/portrait_processed.jpg" alt="portrait yannick siegler">
 
-                            <div class="hello-text">
-                                <h2>Hello, <br> ich bin Yannick. <br> Aktuell mache ich eine Ausbildung zum Mediengestalter und das ist mein Portfolio. <br>
-                                    Viel Spaß beim Durchschauen! 
-                                </h2>
-                            </div>
-                            
+
+                        <figure id="webich" class="in-left">
+                            <img src="img/portrait_processed.jpg" alt="portrait yannick siegler">
                         </figure>
+ 
+                       
+                        <div id="hello-text" class="in-right">
+                            <h2>Hallo, <br> ich bin Yannick. <br> Aktuell mache ich eine Ausbildung zum Mediengestalter und das ist mein Portfolio. <br>
+                            Viel Spaß beim Durchschauen! 
+                            </h2>
+                        </div>
+      
+                     
                     </div>
                     
                 </div>
@@ -140,9 +146,9 @@
                         <div class="swiper">
                             <div class="swiper-wrapper">
 
-                            <div class="swiper-slide"> <figure class="figurequer"><img src="img/traumplakate/traumplakat_final.png" alt="Traumplakat 2" class="bilderhoch"></figure></div>
+                            <div class="swiper-slide"> <figure><img src="img/traumplakate/traumplakat_final.png" alt="Traumplakat 2" class="bilderhoch"></figure></div>
 
-                            <div class="swiper-slide"> <figure class="figurequer"><img src="img/traumplakate/traum1.webp" alt="Traumplakat 1" class="bilderhoch"></figure></div>
+                            <div class="swiper-slide"> <figure><img src="img/traumplakate/traum1.webp" alt="Traumplakat 1" class="bilderhoch"></figure></div>
                         
                             </div>
                             <!-- Add Pagination -->
@@ -180,15 +186,15 @@
                     </div>
 
                     <div class="info"> 
-                        <h3 class="info-h3">Cover Art <br> "Camel Moon"</h3>      
+                        <h3 class="info-h3">Platten Cover <br> "Camel Moon"</h3>      
                     </div>
 
                     <div class="content">
                         <!-- Swiper -->
                         <div class="swiper">
                             <div class="swiper-wrapper">
-                            <div class="swiper-slide"><figure class="figurequer"><img src="img/artsy/theworldcover.jpg" alt="twdna cover art" class="bilderquadrat"></figure></div>
-                            <div class="swiper-slide"><figure class="figurequer"><img src="img/artsy/childrencover.jpg" alt="children cover art" class="bilderquadrat"></figure></div>
+                            <div class="swiper-slide"><figure class="figurequadrat"><img src="img/artsy/theworldcover.jpg" alt="twdna cover art" class="bilderquadrat"></figure></div>
+                            <div class="swiper-slide"><figure class="figurequadrat"><img src="img/artsy/childrencover.jpg" alt="children cover art" class="bilderquadrat"></figure></div>
                             </div>
                             <!-- Add Pagination -->
                             <div class="swiper-pagination"></div>
@@ -325,23 +331,23 @@
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide">
-                                    <figure class="figurequer" ><img src="img/impulse/logo2.svg" alt="Impulse Logo Weiß auf Schwarz" class="bilderquer">
+                                    <figure  ><img src="img/impulse/logo2.svg" alt="Impulse Logo Weiß auf Schwarz" class="bilderquer">
                                     </figure>
                                 </div>     
                                 <div class="swiper-slide">
-                                    <figure class="figurequer"><img src="img/impulse/logo3.svg" alt="Impulse Logo Schwarz auf weiß" class="bilderquer">
+                                    <figure class="figurequr"><img src="img/impulse/logo3.svg" alt="Impulse Logo Schwarz auf weiß" class="bilderquer">
                                     </figure>
                                 </div> 
                                 <div class="swiper-slide" >
-                                    <figure class="figurequer" ><img  src="img/impulse/logo1.svg" alt="Impulse Logo Bunt Schwarz" class="bilderquer">
+                                    <figure class="figurequr" ><img  src="img/impulse/logo1.svg" alt="Impulse Logo Bunt Schwarz" class="bilderquer">
                                     </figure>
                                 </div>  
                                 <div class="swiper-slide">
-                                    <figure class="figurequer"><img src="img/impulse/merch1.svg" alt="impulse merch" class="merch1">
+                                    <figure class="figurequr"><img src="img/impulse/merch1.svg" alt="impulse merch" class="merch1">
                                     </figure>
                                 </div> 
                                 <div class="swiper-slide">
-                                    <figure class="figurequer"><img src="img/impulse/poster_3.svg" alt="impulse poster" class="merch2">
+                                    <figure class="figurequr"><img src="img/impulse/poster_3.svg" alt="impulse poster" class="merch2">
                                     </figure>
                                 </div>  
 
@@ -370,7 +376,7 @@
                     </div>
 
                     <div class="info">
-                        <h3 class="info-h3"> Logovarianten <br> "Impulse Theater Festival" </h3>
+                        <h3 class="info-h3"> Logo Varianten <br> "Impulse Theater Festival" </h3>
                     </div>
 
                     <div class="content" id="logovarianten"> 
@@ -406,8 +412,8 @@
             </section>
 
             <!-- Typography-->
-            <section id="typografie">
-                <h2 class="aside-h2">Typography</h2>
+            <section id="typography">
+                <h2 class="aside-h2">Typo</h2>
 
                 <!-- Typografie Postkarten-->
                 <div class="gridwrapper">
@@ -415,7 +421,7 @@
                     <div class="aside"></div>
 
                     <div class="info">
-                        <h3 class="info-h3"> Typography <br> Postkarten</h3>
+                        <h3 class="info-h3"> Typografie  Aufgabe<br> "postcards"</h3>
                     </div>
 
                     <div class="content"> 
@@ -440,7 +446,7 @@
                                     </figure>
                                 </div>     
                                 <div class="swiper-slide">
-                                    <figure class="figurequer"><img src="img/postkarten/post5.svg" alt="Ein Geschenk" class="bilderhoch" >
+                                    <figure class="figurehoch"><img src="img/postkarten/post5.svg" alt="Ein Geschenk" class="bilderhoch" >
                                     </figure>
                                 </div>
                             </div>
@@ -461,7 +467,7 @@
            
             <!-- Photography-->
             <section id="photography">
-                <h2 class="aside-h2">photography</h2>
+                <h2 class="aside-h2">fotografie</h2>
 
                 <div class="gridwrapper"> 
 
@@ -469,21 +475,21 @@
                     </div>
 
                     <div class="info">
-                        <h3 class="info-h3">Photogaphy <br> "Cakewalk in Leipzig"</h3>
+                        <h3 class="info-h3">Fotoheft<br> "Cakewalk in Leipzig"</h3>
                     </div>
 
                     <div class="content">
                         <!-- Swiper -->
                         <div class="swiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><figure class="figurequer" ><img src="img/fotoleipzig/fotoweb.jpg" alt="Wand und Jacke" class="bilderquer"></figure></div>
-                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb2.jpg" alt="Rutsche und Wand" class="bilderquer"></figure></div>
-                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb3.jpg" alt="Baum durch Zaun und Rohr" class="bilderquer"></figure></div>
-                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb4.jpg" alt="Vonovia Plakat und kaputte Fassade" class="bilderquer"></figure></div>
-                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb5.jpg" alt="Bunte Wand und Müll" class="bilderquer"></figure></div>
-                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb6.jpg" alt="Mülltone und Müll" class="bilderquer"></figure></div>
-                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb7.jpg" alt="Einkauswagen mit Müll und Verschenke Fahrrad" class="bilderquer"></figure></div>
-                                <div class="swiper-slide"><figure class="figurequer"><img src="img/fotoleipzig/fotoweb8.jpg" alt="Bunte Wand und Monster" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure ><img src="img/fotoleipzig/fotoweb7.jpg" alt="Einkauswagen mit Müll und Verschenke Fahrrad" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure ><img src="img/fotoleipzig/fotoweb.jpg" alt="Wand und Jacke" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure ><img src="img/fotoleipzig/fotoweb2.jpg" alt="Rutsche und Wand" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure ><img src="img/fotoleipzig/fotoweb3.jpg" alt="Baum durch Zaun und Rohr" class="bilderquer"></figure ></div>
+                                <div class="swiper-slide"><figure ><img src="img/fotoleipzig/fotoweb4.jpg" alt="Vonovia Plakat und kaputte Fassade" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure ><img src="img/fotoleipzig/fotoweb5.jpg" alt="Bunte Wand und Müll" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure ><img src="img/fotoleipzig/fotoweb6.jpg" alt="Mülltone und Müll" class="bilderquer"></figure></div>
+                                <div class="swiper-slide"><figure ><img src="img/fotoleipzig/fotoweb8.jpg" alt="Bunte Wand und Monster" class="bilderquer"></figure></div>
                             </div>
                             <!-- Add Pagination -->
                             <div class="swiper-pagination"></div>
@@ -500,7 +506,7 @@
 
             <!-- Contact -->
             <section id="contact">
-                <h2 class="aside-h2">Contact</h2>
+                <h2 class="aside-h2">Kontakt</h2>
 
                 <div class="gridwrapper"> 
 
@@ -513,7 +519,7 @@
 
                     <div class="content">
                         <article class="contact">
-                            <h4> Dir hat mein Portfolio gefallen? <br> Schreib mir gerne eine Mail!</h4>
+                            <h2> Dir hat mein Portfolio gefallen? <br> Schreib mir gerne eine Mail!</h2>
                             <a href="mailto:ysiggi@gmail.com">ysiggi@gmail.com</a>
                             
                         </article>
