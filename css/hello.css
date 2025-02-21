@@ -1,7 +1,6 @@
 #hello{
-    padding-top:2rem;
+    padding-top:6rem;
     height: 100vh; 
-    margin-bottom: 5rem;
     
     
  }
@@ -9,16 +8,15 @@
  #webichwrapper {
     display: flex;
     width: 100%;
-    justify-content:end;
+    justify-content:start;
     gap: 2%;
     align-items: center;
 }
 
 #webich {   
     position: relative;
-    width: 250px;
+    width: 120px;
     object-fit: cover;
-    top: 2rem;
     
       
    
@@ -38,7 +36,7 @@
     line-height: 2rem;
     font-size: 1.4rem;
     left: 0;
-    top: 4rem;
+    top: 3rem;
     
    
 }
@@ -58,15 +56,15 @@
 
     #webich{
         position: relative;
-        width: 230px;
+        width: 120px;
     }
 
     #hello-text{
         position: relative;
         font-family: 'Rubik Light';
-        width: 350px;
-        font-size: 1.4rem;
-        line-height: 2.4rem;
+        width: 400px;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
         height: auto;
     
     }
@@ -84,7 +82,7 @@
     }
 
     #hello-text{
-        top: -16rem;
+        top: -9rem;
     }
 
 
