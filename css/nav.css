@@ -17,7 +17,7 @@
     position:absolute;
     height: 7px;
     border-radius: 2px;
-    width: 35px;    
+    width: 40px;    
     background-color: var(--gelb);
     border: solid 0.5px #000;
     display: block;
@@ -29,10 +29,10 @@
     top: 0px;
   }
   #icon span:nth-child(2){
-    top: 10px;
+    top: 12px;
   }
   #icon span:nth-child(3){
-    top: 20px;
+    top: 24px;
   }
 
 
@@ -40,7 +40,6 @@
   #icon.kreuz span:nth-child(1) {
     transform: rotate(-135deg); /* 135° */
     top: 19px;
-    height: 4px;
     background-color: var(--gelb);
   }
 
@@ -121,8 +120,12 @@
   }
   nav ul li{
     display: block; /* !!!!!!! damit die Menupunkte untereinander stehen */
-    margin: 40px 40px 20px 20px; 
+    margin: 20px 40px 20px 25px; 
 
+  }
+
+  nav ul li a{
+    font-size: 2.4rem;
   }
 
    

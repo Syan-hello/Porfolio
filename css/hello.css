@@ -1,24 +1,23 @@
 #hello{
     padding-top:6rem;
-    height: 100vh; 
-    
+    height: 100vh;  
     
  }
- 
+
  #webichwrapper {
-    display: flex;
+
     width: 100%;
-    justify-content:start;
+    justify-content:end;
     gap: 2%;
     align-items: center;
 }
 
-#webich {   
-    position: relative;
-    width: 120px;
+#webich {  
+    position: absolute; 
+    top: 2rem;
+    width: 140px;
     object-fit: cover;
-    
-      
+ 
    
 }
 
@@ -29,14 +28,16 @@
 }
 
 #hello-text {
-    position: relative;
+    position: absolute;
+    top: 18rem;
     font-family: 'Rubik Light';
-    _background-color: #a1aafa78;
+    background-color: #a1aafa78;
+    padding: 1rem 1rem 1rem 1rem;
     border-radius: 1rem;
     line-height: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     left: 0;
-    top: 3rem;
+    width: 330px;
     
    
 }
@@ -45,8 +46,7 @@
 
     #webichwrapper {
         justify-content: center;
-        margin-top: 5rem;
-        margin-left: 4rem;
+        align-items: first baseline;
     }
 
 
@@ -56,16 +56,19 @@
 
     #webich{
         position: relative;
-        width: 120px;
+        width: 160px;
+        top: 3rem;
     }
 
     #hello-text{
         position: relative;
-        font-family: 'Rubik Light';
         width: 400px;
-        font-size: 1.6rem;
-        line-height: 2.5rem;
+        font-size: 1.3rem;
+        line-height: 2.4rem;
         height: auto;
+        top: 0;
+       
+        
     
     }
 
@@ -77,13 +80,7 @@
         padding-top: 0;
     }
 
-    #webichwrapper {
-        align-items:first baseline;
-    }
 
-    #hello-text{
-        top: -9rem;
-    }
 
 
 

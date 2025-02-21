@@ -1,40 +1,59 @@
 /*----Contact Seite -----*/
 
 #contact {
-    height: 90vh;    
+    height: 95vh; 
+    padding-bottom: 0;   
 }
 
 
 .contact {
     display: flex;
     flex-wrap: wrap;
-    _border: solid #333333 0.2rem;
-    border-radius: 1rem;
-    margin-top: 5rem;
-    height:auto;
+    border-radius: 0.6rem;
+    margin-top: 7rem;
     width: 300px;
+    justify-content:start;
+    background-color: #a1aafa78;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.091),0 6px 20px 0 rgba(0, 0, 0, 0.147);
+
    
 
 }
 
 .contact h2 { 
     font-family:'Rubik Light';
-    font-size: 2.3rem;
+    font-size: 1.6rem;
+    color: #333333f8;   
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.3rem;
   
 }
 
 .contact a{
-    padding: 2rem 0rem 0.7rem 0rem;
     font-family: 'Rubik Regular';
-    font-size: 1.4rem;
-     
+    background-color: var(--gelb);
+    _border-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    width:100%;
+    padding: 1.5rem 1rem 0.8rem 10rem;
+    font-size: 1rem;
+    text-decoration: dashed;
+
+    color: #164cfc7b;
+    
 }
 
 .contact a:hover {
-    color: var(--rot);
+    color: var(--gelb);
+   
 }
 
 @media (min-width: 767px) {
+
+    #contact .gridwrapper .content {
+       padding-top: 0;
+    }
 
 
 
@@ -52,20 +71,15 @@
 @media (min-width: 1024px) {
 
 
-    .contact {
-        gap: 1%;
-    }
 
     #contact {
         padding-top: 0;
         
     }
     .contact {
-        margin-top: 6rem;
-        width: 400px;
+        width: 320px;
+        
        
     }
-    .contact h2{
-        font-size: 2.3rem;
-    }
+ 
 }
